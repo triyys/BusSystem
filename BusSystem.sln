@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusLibrary", "BusLibrary\BusLibrary.csproj", "{6526626B-146D-4B45-A2D5-02B8D1C0A4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusSystemUI", "BusSystemUI\BusSystemUI.csproj", "{381AD7EA-6C52-497D-8FF2-E3F26ADFF8C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6526626B-146D-4B45-A2D5-02B8D1C0A4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6526626B-146D-4B45-A2D5-02B8D1C0A4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6526626B-146D-4B45-A2D5-02B8D1C0A4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6526626B-146D-4B45-A2D5-02B8D1C0A4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381AD7EA-6C52-497D-8FF2-E3F26ADFF8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381AD7EA-6C52-497D-8FF2-E3F26ADFF8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381AD7EA-6C52-497D-8FF2-E3F26ADFF8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381AD7EA-6C52-497D-8FF2-E3F26ADFF8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97D92D37-185A-45D8-B99D-804A51AEDC70}
+	EndGlobalSection
+EndGlobal

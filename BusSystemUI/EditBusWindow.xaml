@@ -1,0 +1,24 @@
+﻿<Window x:Class="BusSystemUI.EditBusWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BusSystemUI"
+        mc:Ignorable="d"
+        Title="EditBusWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="titleLabel" Content="HỆ THỐNG QUẢN LÝ XE BUS TP. HỒ CHÍ MINH" HorizontalAlignment="Left" Height="42" Margin="149,7,0,0" VerticalAlignment="Top" Width="536" FontSize="25" Cursor="Pen"/>
+        <Image x:Name="busImage" HorizontalAlignment="Left" Height="41" Margin="44,12,0,0" VerticalAlignment="Top" Width="83" Source="/Asset 1.png"/>
+        <Label x:Name="titleLabel_Copy" Content="CHỈNH SỬA THÔNG TIN XE BUS" HorizontalAlignment="Left" Height="32" Margin="20,60,0,0" VerticalAlignment="Top" Width="301" FontSize="18" Cursor="Pen" RenderTransformOrigin="0.518,0.326"/>
+        <Rectangle HorizontalAlignment="Center" Height="168" Margin="0,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="756" Fill="#FFD0D0D0"/>
+        <Label Content="LOẠI XE" HorizontalAlignment="Left" Margin="71,130,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold"/>
+        <Label Content="BIỂN SỐ" HorizontalAlignment="Left" Margin="71,180,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold"/>
+        <Label Content="SỐ CHỖ NGỒI" HorizontalAlignment="Left" Margin="60,230,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="159,134,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="typeBusTextBox" HorizontalAlignment="Left" Margin="159,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="licenseNoTextBox" HorizontalAlignment="Left" Margin="159,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="NoSeatTextBox" HorizontalAlignment="Left" Margin="159,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <Button x:Name="submitBusButton" Content="Xác nhận" HorizontalAlignment="Left" Height="30" Margin="677,354,0,0" VerticalAlignment="Top" Width="101" Background="#FFDDDDDD" Click="submitBusButton_Click" Cursor="Hand"/>
+        <Button x:Name="returnBusButton" Content="Quay lại" HorizontalAlignment="Left" Height="30" Margin="20,354,0,0" VerticalAlignment="Top" Width="101" Click="returnBusButton_Click" Cursor="Hand" />
+    </Grid>
+</Window>

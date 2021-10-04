@@ -1,0 +1,38 @@
+﻿<Window x:Class="BusSystemUI.AddEmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BusSystemUI"
+        mc:Ignorable="d"
+        Title="Thêm nhân viên" Height="480" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFEEEEEE">
+        <Label x:Name="titleLabel" Content="HỆ THỐNG QUẢN LÝ XE BUS TP. HỒ CHÍ MINH" HorizontalAlignment="Left" Height="42" Margin="149,7,0,0" VerticalAlignment="Top" Width="536" FontSize="25" Cursor="Pen"/>
+        <Image x:Name="busImage" HorizontalAlignment="Left" Height="41" Margin="44,12,0,0" VerticalAlignment="Top" Width="83" Source="/Asset 1.png"/>
+        <Label x:Name="titleLabel_Copy" Content="THÊM NHÂN VIÊN&#xD;&#xA;" HorizontalAlignment="Left" Height="32" Margin="20,60,0,0" VerticalAlignment="Top" Width="160" FontSize="18" Cursor="Pen" RenderTransformOrigin="0.518,0.326"/>
+        <Rectangle HorizontalAlignment="Center" Height="273" Margin="0,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="756" Fill="#FFD0D0D0"/>
+        <Label Content="employee_id" HorizontalAlignment="Left" Margin="71,130,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold"/>
+        <Label Content="first name" HorizontalAlignment="Left" Margin="71,180,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold"/>
+        <Label Content="last name" HorizontalAlignment="Left" Margin="71,230,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold"/>
+        <Label Content="age" HorizontalAlignment="Left" Margin="71,280,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold" RenderTransformOrigin="0.557,1.319"/>
+        <Label Content="start date" HorizontalAlignment="Left" Margin="71,330,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold" RenderTransformOrigin="0.557,1.319"/>
+        <Label Content="base salary" HorizontalAlignment="Left" Margin="436,130,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold" RenderTransformOrigin="0.557,1.319"/>
+        <Label Content="current salary" HorizontalAlignment="Left" Margin="436,180,0,0" VerticalAlignment="Top" Width="93" FontWeight="Bold" RenderTransformOrigin="0.557,1.319"/>
+        <Label Content="date of birth" HorizontalAlignment="Left" Margin="436,230,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold" RenderTransformOrigin="0.557,1.319"/>
+        <Label Content="email" HorizontalAlignment="Left" Margin="436,280,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold" RenderTransformOrigin="0.557,1.319"/>
+        <Label Content="sex" HorizontalAlignment="Left" Margin="436,330,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold" RenderTransformOrigin="0.557,1.319"/>
+        <TextBox HorizontalAlignment="Left" Margin="159,134,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="idTextBox" HorizontalAlignment="Left" Margin="159,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="firstNameTextBox" HorizontalAlignment="Left" Margin="159,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="lastNameTextBox" HorizontalAlignment="Left" Margin="159,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="ageTextBox" HorizontalAlignment="Left" Margin="159,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="startDateTextBox" HorizontalAlignment="Left" Margin="159,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="baseSalaryTextBox" HorizontalAlignment="Left" Margin="533,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="currentSalaryTextBox" HorizontalAlignment="Left" Margin="533,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="dateOfBirthTextBox" HorizontalAlignment="Left" Margin="533,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="emailTextBox" HorizontalAlignment="Left" Margin="533,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="sexTextBox" HorizontalAlignment="Left" Margin="533,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <Button x:Name="submitButton" Content="Xác nhận" HorizontalAlignment="Left" Height="30" Margin="673,398,0,0" VerticalAlignment="Top" Width="101" Click="submitButton_Click" Cursor="Hand"/>
+        <Button x:Name="returnButton" Content="Quay lại" HorizontalAlignment="Left" Height="30" Margin="18,398,0,0" VerticalAlignment="Top" Width="101" Click="returnButton_Click" Cursor="Hand" />
+    </Grid>
+</Window>
